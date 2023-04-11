@@ -1,0 +1,181 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  /* Définit la police pour tout le document */
+  color: #333;
+  /* Couleur du texte pour tout le document */
+  background: #f8f8f8;
+  /* Couleur de fond pour tout le document */
+  margin: 0;
+  /* Supprime les marges extérieures du corps */
+  padding: 0;
+  /* Supprime les marges intérieures du corps */
+}
+
+/* Mise en forme du header */
+header {
+  background: #333;
+  /* Couleur de fond du header */
+  padding: 20px;
+  /* Marges intérieures du header */
+}
+
+header h1 {
+  color: #fff;
+  /* Couleur du texte du titre h1 */
+  font-size: 24px;
+  /* Taille du texte du titre h1 */
+  font-weight: bold;
+  /* Épaisseur du texte du titre h1 */
+  margin: 0;
+  /* Supprime les marges du titre h1 */
+  text-align: center;
+  /* Centre le titre h1 */
+}
+
+/* Navigation */
+nav {
+  background: #444;
+  /* Couleur de fond de la barre de navigation */
+}
+
+nav ul {
+  list-style: none;
+  /* Supprime les puces des éléments de liste dans la navigation */
+  padding: 0;
+  /* Supprime les marges intérieures des listes dans la navigation */
+  margin: 0;
+  /* Supprime les marges extérieures des listes dans la navigation */
+  display: grid;
+  /* Utilise le modèle de grille pour afficher les éléments de liste de la navigation */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Crée 3 colonnes égales pour les éléments de liste de la navigation */
+}
+
+nav ul li {
+  text-align: center;
+  /* Centre le texte des éléments de liste de la navigation */
+  background: #444;
+  /* Couleur de fond des éléments de liste de la navigation */
+  padding: 10px;
+  /* Marges intérieures des éléments de liste de la navigation */
+}
+
+nav ul li a {
+  color: #fff;
+  /* Couleur du texte des liens de la navigation */
+  text-decoration: none;
+  /* Supprime le soulignement des liens de la navigation */
+  font-weight: bold;
+  /* Épaisseur du texte des liens de la navigation */
+}
+
+nav ul li:hover {
+  background: #555;
+  /* Couleur de fond des éléments de liste de la navigation au survol */
+}
+
+/* Contenu principal */
+main {
+  display: grid;
+  /* Utilise le modèle de grille pour afficher les éléments principaux */
+  grid-template-columns: 1.5fr 1fr;
+  /* Crée 2 colonnes, la première 1.5 fois plus large que la deuxième */
+  grid-gap: 20px;
+  /* Espace entre les éléments de grille principaux */
+  padding: 20px;
+  /* Marges intérieures du contenu principal */
+}
+
+/* Image du restaurant */
+main img {
+  width: 100%;
+  /* L'image prendra 100% de la largeur du conteneur parent */
+  height: auto;
+  /* La hauteur de l'image s'ajustera automatiquement pour conserver les proportions de l'image */
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  /* Ajoute un espace de 20px autour du contenu de la section */
+  background: #fff;
+  /* La couleur d'arrière-plan de la section est définie sur blanc */
+  border: 1px solid #ccc;
+  /* Ajoute une bordure d'un pixel avec une couleur grise claire autour de la section */
+}
+
+section h2 {
+  font-size: 18px;
+  /* La taille de la police des titres (h2) des sections est définie sur 20px */
+  font-weight: bold;
+  /* La graisse de la police des titres (h2) des sections est définie en gras */
+  margin-bottom: 20px;
+  /* Ajoute une marge de 20px en dessous des titres (h2) des sections */
+}
+
+/* Critique du Guide Michelin */
+section em {
+  font-style: italic;
+  /* Le style de la police de l'élément em (emphasized text) est défini en italique */
+  display: block;
+  /* L'élément em est affiché comme un élément de type bloc, occupant toute la largeur disponible */
+  padding: 20px;
+  /* Ajoute un espace de 20px autour du contenu de l'élément em */
+  background: #eee;
+  /* La couleur d'arrière-plan de l'élément em est définie sur gris clair */
+  border: 1px solid #ccc;
+  /* Ajoute une bordure d'un pixel avec une couleur grise claire autour de l'élément em */
+}
+
+/* Menu */
+/* Ajouter la classe dans le fichier HTML */
+.titre_liste {
+  line-height: 1.6;
+  /* L'espacement entre les lignes de texte dans la liste est défini sur 1.6 */
+  list-style: none;
+  /* Supprime les puces de la liste */
+  padding: 0;
+  /* Aucun espace autour du contenu de la liste */
+  margin: 0;
+  /* Aucune marge autour de la liste */
+}
+
+
+
+/* Contact */
+aside {
+  padding: 20px;
+  /* Ajoute un espace de 20px autour du contenu de la section de contact */
+  background: #ccc;
+  /* La couleur d'arrière-plan de la section de contact est définie sur gris clair */
+  border: 1px solid #ccc;
+  /* Ajoute une bordure d'un pixel avec une couleur grise claire autour de la section de contact */
+}
+
+aside h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+  background: #333;
+  /* Définit la couleur d'arrière-plan du pied de page */
+  padding: 20px;
+  /* Ajoute un rembourrage de 20 pixels autour du contenu du pied de page */
+  text-align: center;
+  /* Centre le texte à l'intérieur du pied de page */
+}
+
+/* Footer - Paragraphe */
+footer p {
+  color: #fff;
+  /* Définit la couleur du texte à blanc */
+  font-size: 14px;
+  /* Définit la taille de la police à 14 pixels */
+  margin: 0;
+  /* Supprime les marges par défaut autour du paragraphe */
+}
+
